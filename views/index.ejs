@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    
+  
+    <div>
+      <form action="/submit" method="post">
+        <input type="text" name="reqWeb" placeholder="Please Web Link">
+        <input type="text" name="saveFileName" placeholder="Please Input Save File Name">
+        <input type="submit" value="Submit">
+      </form>
+    </div> 
+  </body>
+</html>
