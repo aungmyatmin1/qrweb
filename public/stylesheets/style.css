@@ -1,6 +1,19 @@
+html{
+  align-items: center;
+}
+
 body {
-  padding: 50px;
+  
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+  text-align: center;
+  background-color: black;
+
+}
+.forshow {
+  padding: 20%;
+
+  background-color: white;
 }
 
 a {

@@ -5,15 +5,20 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <div class="forshow">
     <h1><%= title %></h1>
     
   
     <div>
       <form action="/submit" method="post">
         <input type="text" name="reqWeb" placeholder="Please Web Link">
-        <input type="text" name="saveFileName" placeholder="Please Input Save File Name">
+        <br>
+        <br>
+        <input type="text" name="saveFileName" placeholder="Please Input Save File Name"><br>
+        <br>
         <input type="submit" value="Submit">
       </form>
     </div> 
+  </div>
   </body>
 </html>
